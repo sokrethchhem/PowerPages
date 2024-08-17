@@ -1,0 +1,28 @@
+  <div class="header" data-component-theme="portalThemeColor5">
+    <h1 id="header-title" tabindex="0">How can we help?</h1>
+    <div class="searchContainer"><button style="display: contents;" onclick="search()"><img id="searchIcon" src="/search-icon.png" alt="search icon" /></button> <input onkeypress="searchEnter(event)" id="search-input-home" type="text" placeholder="Search questions, keywords, articles" /></div>
+    <script>
+    function search() {
+      var searchQuery = document.getElementById('search-input-home').value;
+      window.sessionStorage.setItem("query", searchQuery)
+      window.location.href = '/search-query/?search=' + searchQuery;
+    }
+
+    function searchEnter(e) {
+      if (event.keyCode == 13) {
+        search();
+      }
+    }
+    </script>
+    <p tabindex="0">Enter a question in the text field or choose a category to browse related questions.</p>
+    </div>
+  {% include 'Topic Cards' num_cards: '6' %}
+  {% include 'Featured Articles' num_articles: '4' %}
+  <div class='cta'>
+    <h2 class='cta-header' tabindex="0">Can't find what you're looking for?</h2>
+    <a href='/Contact-Us'tabindex="0" aria-label="Contact Us" value="Contact-Us" class='cta-btn'>Contact us</a>
+  </div>
+</main>
+<div class='row sectionBlockLayout text-start' style='display: none; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;'>
+  <div class='container' style='padding: 0px; display: flex; flex-wrap: wrap;'><div class='col-lg-12 columnBlockLayout' style='flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;'></div></div>
+</div>

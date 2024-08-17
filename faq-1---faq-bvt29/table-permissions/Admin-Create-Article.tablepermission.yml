@@ -1,0 +1,13 @@
+adx_append: true
+adx_appendto: true
+adx_create: true
+adx_delete: false
+adx_entitylogicalname: faq_article
+adx_entityname: Admin Create Article
+adx_entitypermission_webrole:
+- 5457f450-c75c-ef11-bfe4-000d3a0a1a17
+- fe57f450-c75c-ef11-bfe4-000d3a0a1a17
+adx_entitypermissionid: 1e58f450-c75c-ef11-bfe4-000d3a0a1a17
+adx_read: true
+adx_scope: 756150000
+adx_write: true

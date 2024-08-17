@@ -1,0 +1,14 @@
+adx_append: false
+adx_appendto: false
+adx_create: true
+adx_delete: false
+adx_entitylogicalname: feedback
+adx_entityname: Commentaires
+adx_entitypermission_webrole:
+- 0d223b99-bdcb-4514-9655-a83ae2e01b0b
+- bbb08ded-0be3-45fa-8804-de968c9fd92d
+- c2aa6109-2b2a-4a46-a42b-9da2021ba8f2
+adx_entitypermissionid: 51a675da-21c4-4b8e-8de1-d2101a10d6e8
+adx_read: false
+adx_scope: 756150000
+adx_write: false
